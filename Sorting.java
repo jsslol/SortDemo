@@ -34,6 +34,7 @@ public class Sorting {
                 if(val[j] < val[minIndex])
                     minIndex = j;
             if(i != minIndex){
+                temp = val[i];
                 val[i] = val[minIndex];
                 val[minIndex] = temp;
                 //print(val) shows the individual steps
